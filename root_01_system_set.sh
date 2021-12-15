@@ -19,7 +19,7 @@ chmod +r /etc/profile.d/history_command
 chattr +i /etc/profile.d/history_command
 
 
-/var/log/history.log
+touch /var/log/history.log
 chmod 777 /var/log/history.log
 chattr +a /var/log/history.log
 
