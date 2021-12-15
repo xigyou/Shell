@@ -1,0 +1,13 @@
+export HISTFILE=$HOME/.bash_history
+export HISTSIZE=120000
+export HISTFILESIZE=120000
+export HISTIGNORE=
+export HISTCONTROL=ignoredups
+export HISTTIMEFORMAT="[%Y.%m.%d %H:%M:%S-$SSH_CLIENT-$USER]"
+shopt-s histappend
+typeset -r HISTCONTROL
+typeset -r HISTFILE
+typeset -r HISTFILESIZE
+typeset -r HISTIGNORE
+typeset -r HISTSIZE
+typeset -r HISTTIMEFORMAT
