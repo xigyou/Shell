@@ -1,0 +1,2 @@
+source activate gatk
+source /gatk/gatk-completion.sh
